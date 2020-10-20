@@ -3,7 +3,9 @@
 body {
     font-family: 'Dosis', sans-serif;
     background-color: #2CA58D;
-    color: #6B2737;
+    color: #3E5C76;
+    font-weight: 300;
+    letter-spacing: 0.1em;
 }
 
 .card {
@@ -14,7 +16,7 @@ body {
     background:#FFFFFA;
     padding: 30px;
     border-radius: 4px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
     text-align: center;
 }
 
@@ -28,6 +30,9 @@ body {
     padding: 15px 20px;
     border-radius: 4px;
     display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    width: 150px;
 }
 
 #profilepic {
@@ -36,9 +41,4 @@ body {
     border-radius: 50%;
     margin-bottom: 20px;
     object-fit: cover;
-}
-
-#link {
-    text-decoration: none;
-    margin-top: 20px;
 }
