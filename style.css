@@ -1,0 +1,44 @@
+/* TODO: design your profile with CSS */
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color: #2CA58D;
+    color: #6B2737;
+}
+
+.card {
+    color: 6B2737;
+    width: 80vh;
+    margin: 0 auto;
+    margin-top: 20px;
+    background:#FFFFFA;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    text-align: center;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.button-pretty {
+    background-color: #ECA72C;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#profilepic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+#link {
+    text-decoration: none;
+    margin-top: 20px;
+}
